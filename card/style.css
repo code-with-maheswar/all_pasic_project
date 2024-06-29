@@ -1,0 +1,103 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    
+    
+
+}
+.container{
+    height: 240px;
+    width: 180px;
+    border: 0.2px solid rgb(228, 225, 225);
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    
+}
+.con{
+    height: 69px;
+    width: 69px;
+    border-bottom: 2px solid rgb(168, 157, 157);
+    text-align: center;
+    background-image: url("man.jpg");
+    border-radius: 50%;
+    border: 5px solid rgb(211, 233, 183);
+}
+img{
+    height: 59px;
+    width: 59px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.con-img{
+    height: 80px;
+    width: 1000rem;
+    border:  0.2px solid rgb(212, 205, 205);
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    position: fixed;
+    top: 153px;
+    
+    
+}
+
+.name{
+    position: fixed;
+    top: 90px;
+    line-height: 0px;
+}
+.ani{
+    
+    animation: nanimation 4s linear 5s infinite normal;
+
+}
+@keyframes nanimation {
+    from{
+font-size: 0rem;
+width: 0px;
+    }
+    to{
+        width: 140px;
+font-size: 1rem;
+color: blue;
+    }
+}
+.btn1{
+    position: absolute;
+    top: 200px;
+    left: 45%;
+
+}
+.btn2{
+    
+    position: absolute;
+    top: 200px;
+     right: 45%; 
+
+    
+}
+button{
+    border-radius: 0.32rem;
+    font-size: 12px;
+    color: gray;
+    
+
+}
+button:hover{
+    background-color: aqua;
+    font-size: 1rem;
+    box-shadow: 2px 24px 63px greenyellow;
+}
+.btn-gr{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    
+
+}
